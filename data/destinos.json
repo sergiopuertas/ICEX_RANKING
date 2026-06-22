@@ -1,0 +1,922 @@
+[
+  {
+    "id": "OFECOME EN WASHINGTON",
+    "ciudad": "WASHINGTON",
+    "pais": "Estados Unidos",
+    "organismo": "OFECOME",
+    "lat": 38.9072,
+    "lon": -77.0369,
+    "plazas_2025": 7,
+    "dotacion_referencia": 42900
+  },
+  {
+    "id": "OFECOME EN NUEVA YORK",
+    "ciudad": "NUEVA YORK",
+    "pais": "Estados Unidos",
+    "organismo": "OFECOME",
+    "lat": 40.7128,
+    "lon": -74.006,
+    "plazas_2025": 6,
+    "dotacion_referencia": 48500
+  },
+  {
+    "id": "OFECOME EN LONDRES",
+    "ciudad": "LONDRES",
+    "pais": "Reino Unido",
+    "organismo": "OFECOME",
+    "lat": 51.5074,
+    "lon": -0.1278,
+    "plazas_2025": 6,
+    "dotacion_referencia": 43000
+  },
+  {
+    "id": "OFECOME EN PEKÍN",
+    "ciudad": "PEKÍN",
+    "pais": "China",
+    "organismo": "OFECOME",
+    "lat": 39.9042,
+    "lon": 116.4074,
+    "plazas_2025": 6,
+    "dotacion_referencia": 35500
+  },
+  {
+    "id": "OFECOME EN MÉXICO D.F.",
+    "ciudad": "MÉXICO D.F.",
+    "pais": "México",
+    "organismo": "OFECOME",
+    "lat": 19.4326,
+    "lon": -99.1332,
+    "plazas_2025": 6,
+    "dotacion_referencia": 30400
+  },
+  {
+    "id": "OFECOME EN NUEVA DELHI",
+    "ciudad": "NUEVA DELHI",
+    "pais": "India",
+    "organismo": "OFECOME",
+    "lat": 28.6139,
+    "lon": 77.209,
+    "plazas_2025": 6,
+    "dotacion_referencia": 25800
+  },
+  {
+    "id": "OFECOME EN SHANGHÁI",
+    "ciudad": "SHANGHÁI",
+    "pais": "China",
+    "organismo": "OFECOME",
+    "lat": 31.2304,
+    "lon": 121.4737,
+    "plazas_2025": 5,
+    "dotacion_referencia": 34000
+  },
+  {
+    "id": "OFECOME EN MIAMI",
+    "ciudad": "MIAMI",
+    "pais": "Estados Unidos",
+    "organismo": "OFECOME",
+    "lat": 25.7617,
+    "lon": -80.1918,
+    "plazas_2025": 5,
+    "dotacion_referencia": 42900
+  },
+  {
+    "id": "OFECOME EN CHICAGO",
+    "ciudad": "CHICAGO",
+    "pais": "Estados Unidos",
+    "organismo": "OFECOME",
+    "lat": 41.8781,
+    "lon": -87.6298,
+    "plazas_2025": 5,
+    "dotacion_referencia": 42900
+  },
+  {
+    "id": "OFECOME EN SIDNEY",
+    "ciudad": "SIDNEY",
+    "pais": "Australia",
+    "organismo": "OFECOME",
+    "lat": -33.8688,
+    "lon": 151.2093,
+    "plazas_2025": 5,
+    "dotacion_referencia": 42000
+  },
+  {
+    "id": "OFECOME EN BOGOTÁ",
+    "ciudad": "BOGOTÁ",
+    "pais": "Colombia",
+    "organismo": "OFECOME",
+    "lat": 4.711,
+    "lon": -74.0721,
+    "plazas_2025": 5,
+    "dotacion_referencia": 25100
+  },
+  {
+    "id": "OFECOME EN CASABLANCA",
+    "ciudad": "CASABLANCA",
+    "pais": "Marruecos",
+    "organismo": "OFECOME",
+    "lat": 33.5731,
+    "lon": -7.5898,
+    "plazas_2025": 5,
+    "dotacion_referencia": 26500
+  },
+  {
+    "id": "OFECOME EN LOS ÁNGELES",
+    "ciudad": "LOS ÁNGELES",
+    "pais": "Estados Unidos",
+    "organismo": "OFECOME",
+    "lat": 34.0522,
+    "lon": -118.2437,
+    "plazas_2025": 5,
+    "dotacion_referencia": 45800
+  },
+  {
+    "id": "OFECOME EN TOKIO",
+    "ciudad": "TOKIO",
+    "pais": "Japón",
+    "organismo": "OFECOME",
+    "lat": 35.6762,
+    "lon": 139.6503,
+    "plazas_2025": 4,
+    "dotacion_referencia": 39800
+  },
+  {
+    "id": "OFECOME EN BANGKOK",
+    "ciudad": "BANGKOK",
+    "pais": "Tailandia",
+    "organismo": "OFECOME",
+    "lat": 13.7563,
+    "lon": 100.5018,
+    "plazas_2025": 4,
+    "dotacion_referencia": 26000
+  },
+  {
+    "id": "OFECOME EN BRUSELAS",
+    "ciudad": "BRUSELAS",
+    "pais": "Bélgica",
+    "organismo": "OFECOME",
+    "lat": 50.8503,
+    "lon": 4.3517,
+    "plazas_2025": 4,
+    "dotacion_referencia": 28500
+  },
+  {
+    "id": "OFECOME EN BERLÍN",
+    "ciudad": "BERLÍN",
+    "pais": "Alemania",
+    "organismo": "OFECOME",
+    "lat": 52.52,
+    "lon": 13.405,
+    "plazas_2025": 4,
+    "dotacion_referencia": 30100
+  },
+  {
+    "id": "OFECOME EN COPENHAGUE",
+    "ciudad": "COPENHAGUE",
+    "pais": "Dinamarca",
+    "organismo": "OFECOME",
+    "lat": 55.6761,
+    "lon": 12.5683,
+    "plazas_2025": 4,
+    "dotacion_referencia": 36000
+  },
+  {
+    "id": "OFECOME EN MANILA",
+    "ciudad": "MANILA",
+    "pais": "Filipinas",
+    "organismo": "OFECOME",
+    "lat": 14.5995,
+    "lon": 120.9842,
+    "plazas_2025": 4,
+    "dotacion_referencia": 25900
+  },
+  {
+    "id": "OFECOME EN SAO PAULO",
+    "ciudad": "SAO PAULO",
+    "pais": "Brasil",
+    "organismo": "OFECOME",
+    "lat": -23.5505,
+    "lon": -46.6333,
+    "plazas_2025": 4,
+    "dotacion_referencia": 27900
+  },
+  {
+    "id": "OFECOME EN PARÍS",
+    "ciudad": "PARÍS",
+    "pais": "Francia",
+    "organismo": "OFECOME",
+    "lat": 48.8566,
+    "lon": 2.3522,
+    "plazas_2025": 4,
+    "dotacion_referencia": 37000
+  },
+  {
+    "id": "OFECOME EN YAKARTA",
+    "ciudad": "YAKARTA",
+    "pais": "Indonesia",
+    "organismo": "OFECOME",
+    "lat": -6.2088,
+    "lon": 106.8456,
+    "plazas_2025": 4,
+    "dotacion_referencia": 26500
+  },
+  {
+    "id": "OFECOME EN DUBÁI",
+    "ciudad": "DUBÁI",
+    "pais": "Emiratos Árabes Unidos",
+    "organismo": "OFECOME",
+    "lat": 25.2048,
+    "lon": 55.2708,
+    "plazas_2025": 4,
+    "dotacion_referencia": 42000
+  },
+  {
+    "id": "OFECOME EN BRASILIA",
+    "ciudad": "BRASILIA",
+    "pais": "Brasil",
+    "organismo": "OFECOME",
+    "lat": -15.7939,
+    "lon": -47.8828,
+    "plazas_2025": 4,
+    "dotacion_referencia": 28200
+  },
+  {
+    "id": "OFECOME EN EL CAIRO",
+    "ciudad": "EL CAIRO",
+    "pais": "Egipto",
+    "organismo": "OFECOME",
+    "lat": 30.0444,
+    "lon": 31.2357,
+    "plazas_2025": 4,
+    "dotacion_referencia": 28000
+  },
+  {
+    "id": "OFECOME EN ANKARA",
+    "ciudad": "ANKARA",
+    "pais": "Turquía",
+    "organismo": "OFECOME",
+    "lat": 39.9334,
+    "lon": 32.8597,
+    "plazas_2025": 4,
+    "dotacion_referencia": 24000
+  },
+  {
+    "id": "OFECOME EN MILÁN",
+    "ciudad": "MILÁN",
+    "pais": "Italia",
+    "organismo": "OFECOME",
+    "lat": 45.4642,
+    "lon": 9.19,
+    "plazas_2025": 4,
+    "dotacion_referencia": 30000
+  },
+  {
+    "id": "OFECOME EN SINGAPUR",
+    "ciudad": "SINGAPUR",
+    "pais": "Singapur",
+    "organismo": "OFECOME",
+    "lat": 1.3521,
+    "lon": 103.8198,
+    "plazas_2025": 3,
+    "dotacion_referencia": 44000
+  },
+  {
+    "id": "OFECOME EN ABIYÁN",
+    "ciudad": "ABIYÁN",
+    "pais": "Costa de Marfil",
+    "organismo": "OFECOME",
+    "lat": 5.36,
+    "lon": -4.0083,
+    "plazas_2025": 3,
+    "dotacion_referencia": 32500
+  },
+  {
+    "id": "OFECOME EN BUENOS AIRES",
+    "ciudad": "BUENOS AIRES",
+    "pais": "Argentina",
+    "organismo": "OFECOME",
+    "lat": -34.6037,
+    "lon": -58.3816,
+    "plazas_2025": 3,
+    "dotacion_referencia": 33300
+  },
+  {
+    "id": "OFECOME EN BERNA",
+    "ciudad": "BERNA",
+    "pais": "Suiza",
+    "organismo": "OFECOME",
+    "lat": 46.948,
+    "lon": 7.4474,
+    "plazas_2025": 3,
+    "dotacion_referencia": 46000
+  },
+  {
+    "id": "OFECOME EN HONG KONG",
+    "ciudad": "HONG KONG",
+    "pais": "Hong Kong",
+    "organismo": "OFECOME",
+    "lat": 22.3193,
+    "lon": 114.1694,
+    "plazas_2025": 3,
+    "dotacion_referencia": 43700
+  },
+  {
+    "id": "OFECOME EN RABAT",
+    "ciudad": "RABAT",
+    "pais": "Marruecos",
+    "organismo": "OFECOME",
+    "lat": 34.0209,
+    "lon": -6.8417,
+    "plazas_2025": 3,
+    "dotacion_referencia": 25100
+  },
+  {
+    "id": "OFECOME EN CIUDAD DE HO CHI MINH",
+    "ciudad": "CIUDAD DE HO CHI MINH",
+    "pais": "Vietnam",
+    "organismo": "OFECOME",
+    "lat": 10.8231,
+    "lon": 106.6297,
+    "plazas_2025": 3,
+    "dotacion_referencia": 27000
+  },
+  {
+    "id": "OFECOME EN ROMA",
+    "ciudad": "ROMA",
+    "pais": "Italia",
+    "organismo": "OFECOME",
+    "lat": 41.9028,
+    "lon": 12.4964,
+    "plazas_2025": 3,
+    "dotacion_referencia": 28100
+  },
+  {
+    "id": "OFECOME EN CANTÓN",
+    "ciudad": "CANTÓN",
+    "pais": "China",
+    "organismo": "OFECOME",
+    "lat": 23.1291,
+    "lon": 113.2644,
+    "plazas_2025": 3,
+    "dotacion_referencia": 34300
+  },
+  {
+    "id": "OFECOME EN NAIROBI",
+    "ciudad": "NAIROBI",
+    "pais": "Kenia",
+    "organismo": "OFECOME",
+    "lat": -1.2921,
+    "lon": 36.8219,
+    "plazas_2025": 3,
+    "dotacion_referencia": 29500
+  },
+  {
+    "id": "OFECOME EN PANAMÁ",
+    "ciudad": "PANAMÁ",
+    "pais": "Panamá",
+    "organismo": "OFECOME",
+    "lat": 8.9824,
+    "lon": -79.5199,
+    "plazas_2025": 3,
+    "dotacion_referencia": 31300
+  },
+  {
+    "id": "OFECOME EN DÜSSELDORF",
+    "ciudad": "DÜSSELDORF",
+    "pais": "Alemania",
+    "organismo": "OFECOME",
+    "lat": 51.2277,
+    "lon": 6.7735,
+    "plazas_2025": 3,
+    "dotacion_referencia": 27000
+  },
+  {
+    "id": "OFECOME EN SEÚL",
+    "ciudad": "SEÚL",
+    "pais": "Corea del Sur",
+    "organismo": "OFECOME",
+    "lat": 37.5665,
+    "lon": 126.978,
+    "plazas_2025": 3,
+    "dotacion_referencia": 32500
+  },
+  {
+    "id": "CÁMARA DE COMERCIO ESPAÑOLA EN TAIPÉI",
+    "ciudad": "TAIPÉI",
+    "pais": "Taiwán",
+    "organismo": "Cámara de Comercio Española",
+    "lat": 25.033,
+    "lon": 121.5654,
+    "plazas_2025": 3,
+    "dotacion_referencia": 34200
+  },
+  {
+    "id": "OFECOME EN SANTIAGO DE CHILE",
+    "ciudad": "SANTIAGO DE CHILE",
+    "pais": "Chile",
+    "organismo": "OFECOME",
+    "lat": -33.4489,
+    "lon": -70.6693,
+    "plazas_2025": 3,
+    "dotacion_referencia": 28700
+  },
+  {
+    "id": "OFECOME EN ARGEL",
+    "ciudad": "ARGEL",
+    "pais": "Argelia",
+    "organismo": "OFECOME",
+    "lat": 36.7538,
+    "lon": 3.0588,
+    "plazas_2025": 3,
+    "dotacion_referencia": 29000
+  },
+  {
+    "id": "OFECOME EN LA HABANA",
+    "ciudad": "LA HABANA",
+    "pais": "Cuba",
+    "organismo": "OFECOME",
+    "lat": 23.1136,
+    "lon": -82.3666,
+    "plazas_2025": 3,
+    "dotacion_referencia": 35300
+  },
+  {
+    "id": "OFECOME EN LIMA",
+    "ciudad": "LIMA",
+    "pais": "Perú",
+    "organismo": "OFECOME",
+    "lat": -12.0464,
+    "lon": -77.0428,
+    "plazas_2025": 3,
+    "dotacion_referencia": 26000
+  },
+  {
+    "id": "OFECOME EN DOHA",
+    "ciudad": "DOHA",
+    "pais": "Catar",
+    "organismo": "OFECOME",
+    "lat": 25.2854,
+    "lon": 51.531,
+    "plazas_2025": 3,
+    "dotacion_referencia": 44200
+  },
+  {
+    "id": "OFECOME EN TORONTO",
+    "ciudad": "TORONTO",
+    "pais": "Canadá",
+    "organismo": "OFECOME",
+    "lat": 43.6511,
+    "lon": -79.347,
+    "plazas_2025": 3,
+    "dotacion_referencia": 31600
+  },
+  {
+    "id": "OFECOME EN RIAD",
+    "ciudad": "RIAD",
+    "pais": "Arabia Saudí",
+    "organismo": "OFECOME",
+    "lat": 24.7136,
+    "lon": 46.6753,
+    "plazas_2025": 3,
+    "dotacion_referencia": 41100
+  },
+  {
+    "id": "OFECOME EN OTTAWA",
+    "ciudad": "OTTAWA",
+    "pais": "Canadá",
+    "organismo": "OFECOME",
+    "lat": 45.4215,
+    "lon": -75.6972,
+    "plazas_2025": 3,
+    "dotacion_referencia": 31700
+  },
+  {
+    "id": "OFECOME EN BOMBAY",
+    "ciudad": "BOMBAY",
+    "pais": "India",
+    "organismo": "OFECOME",
+    "lat": 19.076,
+    "lon": 72.8777,
+    "plazas_2025": 3,
+    "dotacion_referencia": 29700
+  },
+  {
+    "id": "OFECOME EN GUATEMALA",
+    "ciudad": "GUATEMALA",
+    "pais": "Guatemala",
+    "organismo": "OFECOME",
+    "lat": 14.6349,
+    "lon": -90.5069,
+    "plazas_2025": 3,
+    "dotacion_referencia": 30500
+  },
+  {
+    "id": "OFECOME EN JOHANNESBURGO",
+    "ciudad": "JOHANNESBURGO",
+    "pais": "Sudáfrica",
+    "organismo": "OFECOME",
+    "lat": -26.2041,
+    "lon": 28.0473,
+    "plazas_2025": 3,
+    "dotacion_referencia": 26700
+  },
+  {
+    "id": "OFECOME EN DAKAR",
+    "ciudad": "DAKAR",
+    "pais": "Senegal",
+    "organismo": "OFECOME",
+    "lat": 14.7167,
+    "lon": -17.4677,
+    "plazas_2025": 3,
+    "dotacion_referencia": 28000
+  },
+  {
+    "id": "OFECOME EN DUBLÍN",
+    "ciudad": "DUBLÍN",
+    "pais": "Irlanda",
+    "organismo": "OFECOME",
+    "lat": 53.3498,
+    "lon": -6.2603,
+    "plazas_2025": 3,
+    "dotacion_referencia": 34500
+  },
+  {
+    "id": "OFECOME EN PRAGA",
+    "ciudad": "PRAGA",
+    "pais": "Chequia",
+    "organismo": "OFECOME",
+    "lat": 50.0755,
+    "lon": 14.4378,
+    "plazas_2025": 3,
+    "dotacion_referencia": 26800
+  },
+  {
+    "id": "OFECOME EN LAGOS",
+    "ciudad": "LAGOS",
+    "pais": "Nigeria",
+    "organismo": "OFECOME",
+    "lat": 6.5244,
+    "lon": 3.3792,
+    "plazas_2025": 3,
+    "dotacion_referencia": 29500
+  },
+  {
+    "id": "OFECOME EN VARSOVIA",
+    "ciudad": "VARSOVIA",
+    "pais": "Polonia",
+    "organismo": "OFECOME",
+    "lat": 52.2297,
+    "lon": 21.0122,
+    "plazas_2025": 3,
+    "dotacion_referencia": 27000
+  },
+  {
+    "id": "OFECOME EN KUALA LUMPUR",
+    "ciudad": "KUALA LUMPUR",
+    "pais": "Malasia",
+    "organismo": "OFECOME",
+    "lat": 3.139,
+    "lon": 101.6869,
+    "plazas_2025": 2,
+    "dotacion_referencia": 25100
+  },
+  {
+    "id": "OFECOME EN TÚNEZ",
+    "ciudad": "TÚNEZ",
+    "pais": "Túnez",
+    "organismo": "OFECOME",
+    "lat": 36.8065,
+    "lon": 10.1815,
+    "plazas_2025": 2,
+    "dotacion_referencia": 26000
+  },
+  {
+    "id": "OFECOME EN SAN JUAN",
+    "ciudad": "SAN JUAN",
+    "pais": "Puerto Rico",
+    "organismo": "OFECOME",
+    "lat": 18.4655,
+    "lon": -66.1057,
+    "plazas_2025": 2,
+    "dotacion_referencia": 37500
+  },
+  {
+    "id": "OFECOME EN MONTEVIDEO",
+    "ciudad": "MONTEVIDEO",
+    "pais": "Uruguay",
+    "organismo": "OFECOME",
+    "lat": -34.9011,
+    "lon": -56.1645,
+    "plazas_2025": 2,
+    "dotacion_referencia": 32000
+  },
+  {
+    "id": "OFECOME EN HOUSTON",
+    "ciudad": "HOUSTON",
+    "pais": "Estados Unidos",
+    "organismo": "OFECOME",
+    "lat": 29.7601,
+    "lon": -95.3701,
+    "plazas_2025": 2,
+    "dotacion_referencia": 45500
+  },
+  {
+    "id": "OFECOME EN WELLINGTON",
+    "ciudad": "WELLINGTON",
+    "pais": "Nueva Zelanda",
+    "organismo": "OFECOME",
+    "lat": -41.2865,
+    "lon": 174.7762,
+    "plazas_2025": 2,
+    "dotacion_referencia": 34900
+  },
+  {
+    "id": "OFECOME EN SANTO DOMINGO",
+    "ciudad": "SANTO DOMINGO",
+    "pais": "Rep. Dominicana",
+    "organismo": "OFECOME",
+    "lat": 18.4861,
+    "lon": -69.9312,
+    "plazas_2025": 2,
+    "dotacion_referencia": 29700
+  },
+  {
+    "id": "OFECOME EN TASKENT",
+    "ciudad": "TASKENT",
+    "pais": "Uzbekistán",
+    "organismo": "OFECOME",
+    "lat": 41.2995,
+    "lon": 69.2401,
+    "plazas_2025": 2,
+    "dotacion_referencia": 30000
+  },
+  {
+    "id": "OFECOME EN LA HAYA",
+    "ciudad": "LA HAYA",
+    "pais": "Países Bajos",
+    "organismo": "OFECOME",
+    "lat": 52.0705,
+    "lon": 4.3007,
+    "plazas_2025": 2,
+    "dotacion_referencia": 32000
+  },
+  {
+    "id": "OFECOME EN ACRA",
+    "ciudad": "ACRA",
+    "pais": "Ghana",
+    "organismo": "OFECOME",
+    "lat": 5.6037,
+    "lon": -0.187,
+    "plazas_2025": 2,
+    "dotacion_referencia": 36800
+  },
+  {
+    "id": "OFECOME EN LUANDA",
+    "ciudad": "LUANDA",
+    "pais": "Angola",
+    "organismo": "OFECOME",
+    "lat": -8.839,
+    "lon": 13.2894,
+    "plazas_2025": 2,
+    "dotacion_referencia": 41600
+  },
+  {
+    "id": "OFECOME EN ESTAMBUL",
+    "ciudad": "ESTAMBUL",
+    "pais": "Turquía",
+    "organismo": "OFECOME",
+    "lat": 41.0082,
+    "lon": 28.9784,
+    "plazas_2025": 2,
+    "dotacion_referencia": 25500
+  },
+  {
+    "id": "OFECOME EN KUWAIT",
+    "ciudad": "KUWAIT",
+    "pais": "Kuwait",
+    "organismo": "OFECOME",
+    "lat": 29.3759,
+    "lon": 47.9774,
+    "plazas_2025": 2,
+    "dotacion_referencia": 40300
+  },
+  {
+    "id": "OFECOME EN MASCATE",
+    "ciudad": "MASCATE",
+    "pais": "Omán",
+    "organismo": "OFECOME",
+    "lat": 23.588,
+    "lon": 58.3829,
+    "plazas_2025": 2,
+    "dotacion_referencia": 39600
+  },
+  {
+    "id": "OFECOME EN QUITO",
+    "ciudad": "QUITO",
+    "pais": "Ecuador",
+    "organismo": "OFECOME",
+    "lat": -0.1807,
+    "lon": -78.4678,
+    "plazas_2025": 2,
+    "dotacion_referencia": 27400
+  },
+  {
+    "id": "OFECOME EN ESTOCOLMO",
+    "ciudad": "ESTOCOLMO",
+    "pais": "Suecia",
+    "organismo": "OFECOME",
+    "lat": 59.3293,
+    "lon": 18.0686,
+    "plazas_2025": 2,
+    "dotacion_referencia": 35000
+  },
+  {
+    "id": "OFECOME EN ATENAS",
+    "ciudad": "ATENAS",
+    "pais": "Grecia",
+    "organismo": "OFECOME",
+    "lat": 37.9838,
+    "lon": 23.7275,
+    "plazas_2025": 2,
+    "dotacion_referencia": 23800
+  },
+  {
+    "id": "OFECOME EN OSLO",
+    "ciudad": "OSLO",
+    "pais": "Noruega",
+    "organismo": "OFECOME",
+    "lat": 59.9139,
+    "lon": 10.7522,
+    "plazas_2025": 2,
+    "dotacion_referencia": 39000
+  },
+  {
+    "id": "OFECOME EN AMÁN",
+    "ciudad": "AMÁN",
+    "pais": "Jordania",
+    "organismo": "OFECOME",
+    "lat": 31.9454,
+    "lon": 35.9284,
+    "plazas_2025": 2,
+    "dotacion_referencia": 30700
+  },
+  {
+    "id": "OFECOME EN BRATISLAVA",
+    "ciudad": "BRATISLAVA",
+    "pais": "Eslovaquia",
+    "organismo": "OFECOME",
+    "lat": 48.1486,
+    "lon": 17.1077,
+    "plazas_2025": 2,
+    "dotacion_referencia": 25000
+  },
+  {
+    "id": "OFECOME EN BELGRADO",
+    "ciudad": "BELGRADO",
+    "pais": "Serbia",
+    "organismo": "OFECOME",
+    "lat": 44.7866,
+    "lon": 20.4489,
+    "plazas_2025": 2,
+    "dotacion_referencia": 24000
+  },
+  {
+    "id": "OFECOME EN BUCAREST",
+    "ciudad": "BUCAREST",
+    "pais": "Rumanía",
+    "organismo": "OFECOME",
+    "lat": 44.4268,
+    "lon": 26.1025,
+    "plazas_2025": 2,
+    "dotacion_referencia": 24000
+  },
+  {
+    "id": "OFECOME EN SAN JOSÉ",
+    "ciudad": "SAN JOSÉ",
+    "pais": "Costa Rica",
+    "organismo": "OFECOME",
+    "lat": 9.9281,
+    "lon": -84.0907,
+    "plazas_2025": 1,
+    "dotacion_referencia": 32800
+  },
+  {
+    "id": "OFECOME EN ALMATÍ",
+    "ciudad": "ALMATÍ",
+    "pais": "Kazajistán",
+    "organismo": "OFECOME",
+    "lat": 43.222,
+    "lon": 76.8512,
+    "plazas_2025": 1,
+    "dotacion_referencia": 27900
+  },
+  {
+    "id": "OFECOME EN SAN SALVADOR",
+    "ciudad": "SAN SALVADOR",
+    "pais": "El Salvador",
+    "organismo": "OFECOME",
+    "lat": 13.6929,
+    "lon": -89.2182,
+    "plazas_2025": 1,
+    "dotacion_referencia": 33500
+  },
+  {
+    "id": "OFECOME EN BUDAPEST",
+    "ciudad": "BUDAPEST",
+    "pais": "Hungría",
+    "organismo": "OFECOME",
+    "lat": 47.4979,
+    "lon": 19.0402,
+    "plazas_2025": 1,
+    "dotacion_referencia": 23500
+  },
+  {
+    "id": "OFECOME EN LA PAZ",
+    "ciudad": "LA PAZ",
+    "pais": "Bolivia",
+    "organismo": "OFECOME",
+    "lat": -16.4897,
+    "lon": -68.1193,
+    "plazas_2025": 1,
+    "dotacion_referencia": 25400
+  },
+  {
+    "id": "OFECOME EN VIENA",
+    "ciudad": "VIENA",
+    "pais": "Austria",
+    "organismo": "OFECOME",
+    "lat": 48.2082,
+    "lon": 16.3738,
+    "plazas_2025": 1,
+    "dotacion_referencia": 28200
+  },
+  {
+    "id": "OFECOME EN HELSINKI",
+    "ciudad": "HELSINKI",
+    "pais": "Finlandia",
+    "organismo": "OFECOME",
+    "lat": 60.1699,
+    "lon": 24.9384,
+    "plazas_2025": 1,
+    "dotacion_referencia": 32000
+  },
+  {
+    "id": "OFECOME EN ASUNCIÓN",
+    "ciudad": "ASUNCIÓN",
+    "pais": "Paraguay",
+    "organismo": "OFECOME",
+    "lat": -25.2637,
+    "lon": -57.5759,
+    "plazas_2025": 1,
+    "dotacion_referencia": 26000
+  },
+  {
+    "id": "OFECOME EN BEIRUT",
+    "ciudad": "BEIRUT",
+    "pais": "Líbano",
+    "organismo": "OFECOME",
+    "lat": 33.8938,
+    "lon": 35.5018,
+    "plazas_2025": 1,
+    "dotacion_referencia": 32400
+  },
+  {
+    "id": "OFECOME EN LISBOA",
+    "ciudad": "LISBOA",
+    "pais": "Portugal",
+    "organismo": "OFECOME",
+    "lat": 38.7223,
+    "lon": -9.1393,
+    "plazas_2025": 1,
+    "dotacion_referencia": 24700
+  },
+  {
+    "id": "OFECOME EN SOFÍA",
+    "ciudad": "SOFÍA",
+    "pais": "Bulgaria",
+    "organismo": "OFECOME",
+    "lat": 42.6977,
+    "lon": 23.3219,
+    "plazas_2025": 1,
+    "dotacion_referencia": 23900
+  },
+  {
+    "id": "OFECOME EN VILNA",
+    "ciudad": "VILNA",
+    "pais": "Lituania",
+    "organismo": "OFECOME",
+    "lat": 54.6872,
+    "lon": 25.2797,
+    "plazas_2025": 1,
+    "dotacion_referencia": 24000
+  },
+  {
+    "id": "OFECOME EN ZAGREB",
+    "ciudad": "ZAGREB",
+    "pais": "Croacia",
+    "organismo": "OFECOME",
+    "lat": 45.815,
+    "lon": 15.9819,
+    "plazas_2025": 1,
+    "dotacion_referencia": 24300
+  }
+]

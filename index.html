@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ranking Becas ICEX · 50ª Promoción</title>
+<meta name="description" content="Calcula tu nota, apunta tus preferencias de destino y consulta el ranking estimado de la 50ª Promoción de Becas ICEX.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <div class="brand"><span class="seal">ICEX</span> Ranking 50ª Promoción</div>
+    <nav class="nav-links">
+      <a href="index.html" class="active">Mi puesto</a>
+      <a href="dashboard.html">Ranking y mapa</a>
+    </nav>
+  </div>
+</header>
+
+<main class="shell">
+
+  <section class="hero">
+    <div class="hero-row">
+      <div>
+        <h1>Calcula tu nota y mira tu sitio en el ranking</h1>
+        <p class="lead">Introduce tus notas y hasta 15 destinos por orden de preferencia. Verás tu nota final al instante y, en el ranking, una estimación de a qué destino podrías acceder según los datos reales de la 49ª Promoción.</p>
+      </div>
+      <div class="stamp">Estimación<br>no oficial<br>· comunidad ·</div>
+    </div>
+  </section>
+
+  <div class="banner" id="banner"></div>
+
+  <section class="card">
+    <h2>Tus datos</h2>
+    <p class="hint">El alias es opcional — si lo dejas en blanco te asignamos uno. El código personal es obligatorio: lo necesitarás para editar o eliminar tu entrada más adelante, guárdalo bien.</p>
+
+    <form id="form-entry" novalidate>
+      <div class="grid-2">
+        <div class="field">
+          <label for="alias">Alias <span style="font-weight:400;color:var(--ink-faint)">(opcional)</span></label>
+          <input type="text" id="alias" maxlength="40" placeholder="p. ej. Becario_NYC23">
+        </div>
+        <div class="field">
+          <label for="pin">Código personal *</label>
+          <input type="password" id="pin" minlength="4" maxlength="30" placeholder="mín. 4 caracteres" required>
+          <div class="sub">No es tu DNI ni tu correo: invéntate un código solo para esto.</div>
+        </div>
+      </div>
+
+      <div class="divider"></div>
+
+      <div class="grid-2">
+        <div class="field">
+          <label for="master-grade">Nota del máster conocida (sobre 100, 53 créditos) *</label>
+          <input type="number" id="master-grade" min="0" max="100" step="0.001" placeholder="0 – 100" required>
+        </div>
+        <div class="field">
+          <label for="tfm">TFM (7 créditos) *</label>
+          <select id="tfm" required>
+            <option value="pendiente" selected>Pendiente de calificar</option>
+            <option value="apto">Apto</option>
+            <option value="suspenso">Suspenso</option>
+          </select>
+          <div class="sub">Apto computa como nota máxima en sus 7 créditos; "pendiente" cuenta como 0 hasta que lo actualices.</div>
+        </div>
+      </div>
+
+      <div class="grid-2">
+        <div class="field">
+          <label for="idioma">Idioma acreditado *</label>
+          <select id="idioma" required>
+            <option value="ninguno">Sin acreditar</option>
+            <option value="b2">B2</option>
+            <option value="c1">C1</option>
+            <option value="c2">C2</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="tics-grade">Nota examen TICs (sobre 100) *</label>
+          <input type="number" id="tics-grade" min="0" max="100" step="0.001" placeholder="0 – 100" required>
+        </div>
+      </div>
+
+      <div class="preview-score">
+        <span class="n" id="preview-score">—</span>
+        <span class="l">/ 100 · nota final estimada</span>
+      </div>
+
+      <div class="field">
+        <label>Preferencias de destino — entre 5 y 15, en orden *</label>
+        <div class="combo">
+          <input type="search" id="dest-search" placeholder="Busca una ciudad o país y pulsa para añadir…" autocomplete="off">
+          <div class="combo-results" id="dest-results"></div>
+        </div>
+        <ol class="pref-list" id="pref-list"></ol>
+        <div class="pref-count" id="pref-count">0 destinos seleccionados (mínimo 5)</div>
+      </div>
+
+      <div class="btn-row">
+        <button type="submit" class="btn btn-primary" id="btn-submit">Guardar mi puesto en el ranking</button>
+      </div>
+    </form>
+  </section>
+
+  <section class="card">
+    <h2>¿Ya tienes una entrada?</h2>
+    <p class="hint">Identifícate con tu alias y código personal para cargar tus datos en el formulario de arriba (y poder modificarlos) o para eliminarte del ranking.</p>
+    <div class="grid-2">
+      <div class="field">
+        <label for="manage-alias">Tu alias</label>
+        <input type="text" id="manage-alias" placeholder="Tu alias actual">
+      </div>
+      <div class="field">
+        <label for="manage-pin">Tu código personal</label>
+        <input type="password" id="manage-pin" placeholder="Tu código">
+      </div>
+    </div>
+    <div class="btn-row">
+      <button type="button" class="btn btn-secondary" id="btn-load">Cargar mis datos para editar</button>
+      <button type="button" class="btn btn-danger" id="btn-delete">Eliminarme del ranking</button>
+    </div>
+  </section>
+
+</main>
+
+<footer class="disclaimer shell">
+  <strong>Aviso:</strong> esta es una herramienta hecha por y para becarios de la 50ª Promoción, sin relación oficial con ICEX. Las notas y preferencias se calculan con criterios definidos por la comunidad y pueden no coincidir con el baremo oficial. Las probabilidades de destino se estiman comparando tu posición con la resolución pública de la 49ª Promoción y no garantizan ningún resultado. No se almacena ningún dato identificativo (DNI, correo, etc.) de terceros: el histórico usado para las estimaciones solo contiene puesto, nota y destino.
+</footer>
+
+<script type="module" src="js/formulario.js"></script>
+</body>
+</html>
